@@ -824,7 +824,14 @@ class GPR2DLoader:
 
         self.data = out
         self.add_process("DECON")     
-
+    def clear_data(self):
+        for attr in ['data','xyz','hdr_info','depth','base_path','line_name',
+                     'data_type','file_path','file_size','header_size',
+                     'samples_per_trace','num_traces','shape','dtype',
+                     '_sample_interval_s','_velocity','_x_cell_m',
+                     '_num_traces_hdr','_samples_per_trace_hdr']:
+            setattr(self, attr, None)
+                    
                     
 
 
@@ -3214,4 +3221,5 @@ class V00ReaderGUI:
 if __name__ == "__main__":
     root = tk.Tk()
     app = V00ReaderGUI(root)
+
     root.mainloop()
