@@ -1,4 +1,4 @@
-# GPR Viewer Application (v00readerV2.py)
+# GPR Viewer Application (v00readerV3.py)
 @Mrinal Kanti Layek @layek.mk@gmail.com
 ## Summary of Fixes and Enhancements
 
@@ -275,3 +275,4 @@ v00readerV2.py
 1. Ge et al. 2024, IEEE TGRS - "Wavelet-GAN: A GPR Noise and Clutter Removal Method Based on Small Real Datasets"
 2. GSSI RADAN 7 User Manual
 3. Yilmaz, O. (2001). Seismic Data Analysis (for deconvolution theory)
+
